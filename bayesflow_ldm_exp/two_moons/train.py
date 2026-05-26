@@ -96,6 +96,8 @@ def main():
 
     plots.plot_posterior_scatter(all_samples)
     plots.plot_posterior_kde(all_samples)
+    plots.plot_kde_bw_ablation(all_samples)
+    plots.plot_posterior_hist2d(all_samples, bins=100)
 
     sbc_data = simulator.sample(C.SBC_SIMULATIONS)
     sbc_conditions = {"observables": sbc_data["observables"].astype(np.float32)}
