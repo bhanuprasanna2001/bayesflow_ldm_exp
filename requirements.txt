@@ -1,0 +1,10 @@
+bayesflow @ git+https://github.com/bhanuprasanna2001/bayesflow.git@ldm-dev
+keras
+torch
+numpy
+scipy
+scikit-image
+scikit-learn
+matplotlib
+seaborn
+FyeldGenerator
